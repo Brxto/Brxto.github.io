@@ -506,6 +506,16 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* --------------------------------------- */
+/* ----- Youtube iFrame  ----- */
+/* --- */
+
+iframe {
+    aspect-ratio: 16 / 9;
+    height: 100%;
+    width: 100%;
+}
+
+/* --------------------------------------- */
 /* ----- Clients ----- */
 /* --------------------------------------- */
 
@@ -611,3 +621,4 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+
